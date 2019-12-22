@@ -1,0 +1,28 @@
+{
+  "name": "polevaultweb/oauth2-freeagent",
+  "description": "FreeAgent OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Iain Poulson",
+      "email": "iain@polevaultweb.com",
+      "homepage": "https://github.com/polevaultweb"
+    }
+  ],
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "client",
+    "authorization",
+    "authorisation",
+    "freeagent"
+  ],
+  "require": {
+    "league/oauth2-client": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Polevaultweb\\OAuth2\\Client\\": "src/"
+    }
+  }
+}
